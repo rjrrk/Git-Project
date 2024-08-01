@@ -1,0 +1,7 @@
+---
+services:
+  nginx-deploy:
+    image: nginx:v2.0
+    container_name: nginx_compose
+    ports:
+      - 8086:80
